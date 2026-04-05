@@ -21,7 +21,7 @@
 <body>
 
     <header>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-custom">
             <div class="container">
           
               <!-- Logo -->
@@ -260,6 +260,30 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Dark Mode Toggle
+        const darkModeSwitch = document.getElementById('darkModeSwitch');
+        const body = document.body;
+
+        // Load saved preference
+        const savedDarkMode = localStorage.getItem('darkMode');
+        if (savedDarkMode === 'true') {
+            darkModeSwitch.checked = true;
+            body.classList.add('dark-mode');
+        }
+
+        // Toggle dark mode
+        darkModeSwitch.addEventListener('change', function() {
+            if (this.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'true');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'false');
+            }
+        });
+    </script>
 
 </body>
 
