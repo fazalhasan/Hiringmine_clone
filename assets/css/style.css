@@ -429,8 +429,7 @@ footer .container-fluid {
 header {
   background: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  position: sticky;
-  top: 0;
+  position: static;
   z-index: 1000;
   backdrop-filter: blur(10px);
 }
@@ -481,7 +480,7 @@ body.dark-mode header {
 .navbar-nav .nav-item .nav-link {
   display: inline-block !important;
   padding: 0 !important;
-  color: #5a5a5a !important;
+  color: #000000 !important;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
