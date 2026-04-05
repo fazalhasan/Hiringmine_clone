@@ -224,60 +224,58 @@ h3.banner-heading span {
 }
 
 .img_grid-sec .img-1 {
-    background-image: url(../images/12-a4329216.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 4 / 1 / 7 / 5;
     transition: transform 0.3s;
 }
 
 .img_grid-sec .img-2 {
-    background-image: url(../images/2-7f019c59.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 2 / 5 / 5 / 8;
     transition: transform 0.3s;
 }
 .img_grid-sec .img-3 {
-    
-    background-image: url(../images/3-4a84e598.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 1 / 8 / 5 / 12;
     transition: transform 0.3s;
 }
 .img_grid-sec .img-4 {
-    
-    background-image: url(../images/4-3621ba3e.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 7 / 1 / 10 / 5;
     transition: transform 0.3s;
 }
 .img_grid-sec .img-5 {
-    background-image: url(../images/5-90516f02.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 5 / 5 / 10 / 10;
     transition: transform 0.3s;
 }
 .img_grid-sec .img-6 {
-    background-image: url(../images/6-fd72e5b8.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 5 / 10 / 7 / 14;
     transition: transform 0.3s;
 }
 .img_grid-sec .img-7 {
-    background-image: url(../images/7-2a096583.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 10 / 3 / 14 / 7;
     transition: transform 0.3s;
@@ -285,18 +283,18 @@ h3.banner-heading span {
 
 
 .img_grid-sec .img-8 {
-    background-image: url(../images/8-ea275e2c.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 7 / 10 / 12 / 14;
     transition: transform 0.3s;
 }
 
 .img_grid-sec .img-9 {
-    background-image: url(../images/9-7bcc80b7.jpg);
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     grid-area: 10 / 7 / 14 / 10;
     transition: transform 0.3s;
